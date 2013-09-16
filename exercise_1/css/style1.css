@@ -1,0 +1,271 @@
+.clear{
+  clear: both;
+}
+#header{
+  height: 100px;
+  width: 950px;
+  margin: 0 0 15px 50px;
+}
+
+#header .gambar{
+  float: left;
+  margin: 10px 10px 10px 10px;
+}
+
+.menuheader{
+  margin: 50px 0 5px 0;
+  float:right;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+ul.menuheader{
+  list-style-type: none;
+  margin: 5px 10px 5px 10px;
+}
+
+ul.menuheader li{
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.menuheader li label{
+  display: unline;
+  color: #FFF;
+  margin: 0 5px 0 5px;
+}
+
+#menu{
+  height: 50px;
+  width: 950px;
+  margin: 0 0 15px 50px;
+  background-color: #fff;  
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+#menu ul.menumain li{
+  float: left;
+  margin: 15px 0 0 20px;
+  padding-right: 15px; 
+  border-right: 1px solid; 
+  list-style-type: none; 
+}
+
+#menu .menumain li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 0 15px 0 15px;
+}
+
+#menu .menumain li a:hover {
+  color: blue; 
+}
+
+#menu .menumain li input{
+  margin: 0 0 0 20px;
+}
+
+#menu .menumain li.none{
+  border: none;
+}
+
+#content{
+  height: 950px;
+  width: 950px;
+  margin: 0 0 15px 50px;
+}
+
+#content .kiri{
+  float: left;
+  height: 950px;
+  width: 300px;
+  margin: 5px 5px 5px 5px;
+}
+
+#content .kiri .headkiri{
+  height: 20px;
+  width: 290px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+}
+#content .kiri .formlogin{
+  height: 90px;
+  width: 285px;
+  padding: 10px 0 0 5px;
+  margin: 10px 5px 10px 5px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#content .kiri ul.categor{
+  list-style-type: none;
+}
+
+ul, li{
+  margin: 0;
+  padding: 0;
+}
+
+#content .kiri ul li ul li{
+  border-bottom: 1px dashed;
+  padding-left: 10px;
+}
+
+#content .kiri li a{
+  text-decoration: none;
+  display: block;
+}
+
+#content .kanan{
+  float: left;
+  height: 950px;
+  width: 620px;
+  margin: 0px 5px 5px 10px;
+}
+
+#content .kanan h2{
+  float: left;
+}
+
+#content .kanan h2 span{
+  font-family: "Times New Roman", Times, serif;
+  color: #09F;
+}
+
+#content .kanan .lihatsemua{
+  height: 20px;
+  width: 120px;
+  float: right;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  color: #FFF;
+  display: unline;
+  background-color: #09F;
+  padding-top: 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 25px 0 0 0;
+}
+
+#content .kanan .lihatsemua a:hover{
+  color: red;
+}
+
+#content .kanan .lihatsemua a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#content .kanan .gmbr{
+  height: 450px;
+  width: 645px;
+}
+
+#content .kanan .gmbr .isigmbr {
+  float: left;
+  max-width: 140px;
+  height: 200px;
+  margin: 5px 15px 10px 0;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#content .kanan .gmbr .isigmbr p{
+  margin-left: 5px;
+  float: left;
+}
+
+#content .kanan .gmbr .isigmbr .details{
+  height: 23px;
+  width: 65px;
+  border-radius: 5px;
+  background-color: #09f;
+  float: right;
+  margin: 70px 5px 5px 0;
+  text-align: center;
+}
+
+#content .kanan .gmbr .isigmbr .details a:hover{
+  color: red;
+}
+
+#content .kanan .gmbr .isigmbr .details a{
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+#content .kanan img{
+  border-radius: 5px;
+}
+
+#content .kanan .latest{
+  height: 20px;
+  width: 615px;
+  margin: 5px 0 15px 0;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#content .kanan .artikellama{
+  height: 200px;
+  width: 615px;
+  border: 1px solid;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+#content .kanan .artikellama p{
+  display: block;
+  border-bottom: 1px dashed;
+}
+
+#footer{
+  height: 100px;
+  width: 950px;
+  margin: 0 0 15px 50px;
+}
+
+#footer .menu{
+  height: 40px;
+  width : 950px;
+  margin : 0 0 5px 5px;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+#footer ul.menumain li{
+  float: left;
+  list-style-type: none;
+  padding: 0 15px 0 15px;
+  border-right: 1px solid;
+}
+
+#footer .menumain li{
+  margin: 10px 10px 0 5px;
+}
+
+#footer .menumain li a{
+  text-decoration: none;
+  color: #FFF;
+  margin: 0 35px 0 35px;
+}
+
+#footer .menumain li a:hover{
+ color: blue;
+}
+
+#footer .menumain li.none{
+  border: none;
+}
+
+#footer p{
+  color: blue;
+  text-align: center;
+}
+
